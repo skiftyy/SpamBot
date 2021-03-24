@@ -1,21 +1,5 @@
 import pyautogui, time
 
-#Presets Simple Letter by Letter
-#O_O = "Oh.yeah.gamers"
-j = "Lord.Fisher.is.a.beautiful.human.being"
-k = ""
-l = ""
-m = ""
-n = ""
-
-#Presets Simple Word by Word
-#AAA = ["poop", "bum", "lol"]
-a = []
-b = []
-c = []
-d = []
-e = []
-
 #Presets Advance
 #Change path for different scripts
 bee = open("C:\\Users\\26495\\OneDrive - Brisbane Boys' College\\School\\Coding\\GitHub Repository\\SpamBot\\Scripts\\beemovie.txt", 'r')
@@ -36,8 +20,8 @@ discord = 1
 #Spammer
 time.sleep(5)
 #Change variable to chosen option
-for word in gangnam:
+for word in cars:
     pyautogui.typewrite(word)
-    time.sleep(teams)
+    time.sleep(winword)
     #pyautogui.press("enter")
 pyautogui.press("enter")
