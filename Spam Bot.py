@@ -22,6 +22,7 @@ start = 0
 start2 = 0
 
 while start == 0:
+    print("")
     print("SCRIPT OPTIONS:")
     print("bee")
     print("gangnam")
@@ -52,6 +53,7 @@ while start2 == 0:
     print("instagram")
     print("teams")
     print("whatsapp")
+    print("")
     b = input("App: ")
     if b == "word":
         app = winword
