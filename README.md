@@ -1,11 +1,13 @@
 # SpamBot
 
-INSTRUCTIONS TO GET RUNNING:
+This is a simple spam bot that I created to annoy friends in text message conversations.
+The full script can be found under SpamBot.py in the folder.
+A windows executable can be found under SpamBot.exe in the folder.
 
-1. Install pyautogui:
-This can be done by entering "pip install pyautogui" in your console of choice to allow python to run automatic processes
+IMPORTANT NOTE:
+To make sure that it works properly, follow these steps:
+  1. Create a folder called GitHub in your C: Drive
+  2. Download this repository into that folder
 
-2. Change the script file locations:
-Make sure that the location that you have saved the "Scripts" folder is the same location referenced in the python script
-
-NOW YOUR SPAM BOT SHOULD BE READY TO GO!
+If this is all done you should be good to go!
+Have fun!
