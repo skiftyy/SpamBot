@@ -8,6 +8,12 @@ cars = open("C:\\GitHub\\SpamBot\\Scripts\\Cars 2.txt", 'r')
 y = open("C:\\GitHub\\SpamBot\\Scripts\\beemovie.txt", 'r')
 z = open("C:\\GitHub\\SpamBot\\Scripts\\beemovie.txt", 'r')
 
+#References
+Scripts = open("C:\GitHub\SpamBot\References\Scripts.txt", "r")
+Scriptz = Scripts.read()
+Apps = open("C:\GitHub\SpamBot\References\Apps.txt", "r")
+Appz = Apps.read()
+
 #Applications
 winword = 0
 discord = 1
@@ -24,10 +30,7 @@ start2 = 0
 while start == 0:
     print("")
     print("SCRIPT OPTIONS:")
-    print("bee")
-    print("gangnam")
-    print("pra")
-    print("cars")
+    print(Scriptz)
     print("")
     a = input("Script: ")
     if a == "bee":
@@ -48,11 +51,7 @@ while start == 0:
 while start2 == 0:
     print("")
     print("APP OPTIONS:")
-    print("word")
-    print("discord")
-    print("instagram")
-    print("teams")
-    print("whatsapp")
+    print(Appz)
     print("")
     b = input("App: ")
     if b == "word":
